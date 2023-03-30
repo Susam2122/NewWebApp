@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form1</title>
+	<style>
+
+form{
+	margin: 0px auto;
+	text-align: left;
+	font-family: Lucida Console;
+	font-size: 20px;
+	width: 500px;
+	background: blue;
+	display: block;
+}
+
+input[type=text] {
+   width: 60%;
+  padding: 15px;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+
+}
+input[type=text] {
+  background-image: url('use.png');
+  background-repeat: no-repeat;
+  background-position: 10px 10px; 
+  text-align: center;
+}
+
+input[type=password]{
+  width: 60%;
+  padding: 15px;
+  display: block;
+  border: none;
+  background: #f1f1f1;     
+}
+input[type=password]{
+  background-image: url('lock.png');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  text-align: center; 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  margin: 10px auto 0px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  width: 66%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+h2{
+	width: 60%;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	padding: 15px; 
+}
+</style>
+</head>
+<body>
+
+<form>
+	<h2><b>LOGIN</b></h2>
+	<label><b>UserName</b></label>
+	<input type="text" name="username"	placeholder="     Enter User Name ID"><br>
+	<label><b>Password</b></label>
+	<input type="password" name="password" placeholder="     Enter Password Here"><br>
+	
+	<button type="submit" name="register" class="btn">SIGN IN</button>
+</form>
+</body>
+</html>
